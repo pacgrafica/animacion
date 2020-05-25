@@ -10,12 +10,30 @@
 
 .div_centrado {
   background-color: #000000;
-  width: 500px;
-  height: 500px;
+  width: 200px;
+  height: 200px;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -250px;
-  margin-left: -250px;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+h1{
+  color: azure;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  display: flex;
+  justify-content: center;}
+
+#anima{
+  animation-delay: 2.5s;
+}
+a{
+  text-decoration: none;
+}
+h1:hover{
+  color: #FDCE18;
+  animation-duration: 0,5;
+  transition: ease-in-out;
 }
 /*# sourceMappingURL=estilos.css.map */

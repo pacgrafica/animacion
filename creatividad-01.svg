@@ -3,18 +3,96 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FDEAA2;stroke:#F8EE69;stroke-width:0.5751;stroke-miterlimit:10;}
-	.st1{fill:#FAAF40;
-		animation: base 5s infinite;}
-	@keyframes base{
-	from {top: 0px;}
-	to {top: 200px;}
+	.st0{fill:#FDEAA2;stroke:#F8EE69;stroke-width:0.5751;stroke-miterlimit:10;
+		animation-name: base;
+		animation-duration: 0.8s;
+		animation-timing-function: ease-in;
+	  }
+	  
+	  @keyframes base{
+		from {transform: translate(0, 30px);}
+		to {transform: translate(0, 0px);}
 	}
-	.st2{fill:#FDCE18;}
-	.st3{fill:#FDCE18;stroke:#F8EE69;stroke-width:0.4008;}
-	.st4{opacity:0.85;fill:#FDCE18;}
-	.st5{fill:#FFCB04;}
-	.st6{fill:#FFFFFF;}
+	.st1{fill:#FAAF40;
+		animation-name: base;
+		animation-duration: 0.5s;
+		animation-timing-function: ease-in;
+	  }
+	  
+	  @keyframes base{
+		from {transform: translate(0,50px);}
+		to {transform: translate(0,-0px);}
+	}
+	.st2{fill:#FDCE18;
+		animation-name: base;
+		animation-duration: 1s;
+		animation-timing-function: ease-in;
+	  }
+	  
+	  @keyframes base{
+		from {transform: translate(0,150px);}
+		to {transform: translate(0,-0px);}
+	}
+	
+	.st3{fill:#FDCE18;
+		stroke:#F8EE69;
+		stroke-dasharray: 30;
+		stroke-dashoffset: 0;
+		-webkit-animation: animacion 18s forwards;
+		-moz-animation: animacion 18s forwards;
+		-o-animation: animacion 18s forwards;
+		animation: animacion 18s forwards;}
+		
+		@keyframes animacion{
+		0%{
+			stroke-dashoffset: 1300;
+		}
+		95%{
+			stroke-dashoffset: 0;
+			stroke: #FDCE18;
+		}	
+		100%{
+			stroke: #F8EE69;
+		}
+	  }
+	.st4{opacity:0.85;fill: rgba(256, 206, 24, 0.5);
+		animation-name: base;
+		animation-duration: 2s;
+		animation-timing-function: ease-in;
+	  }
+	  
+	  @keyframes base{
+		from {transform: translate(0,250px);}
+		to {transform: translate(0,-0px);}
+	}
+	.st5{fill:#FFCB04;
+		animation-name: base;
+		animation-duration: 2.5s;
+		animation-timing-function: ease-in;
+	  }
+	  
+	  @keyframes base{
+		from {transform: translate(0,300px);}
+		to {transform: translate(0,-0px);}
+	}
+	.st6{fill:#FFFFFF;
+		animation-name: base;
+		animation-duration: 3s;
+		animation-timing-function: ease-in;
+	  }
+	  
+	  @keyframes base{
+		from {transform: translate(0,300px);}
+		to {transform: translate(0,-0px);}
+	}
+	#bombillo{
+		animation-name: base;
+		animation-duration: 1s;
+	}
+	@keyframes base{
+	  from {transform: translate(0,300px);}
+	  to {transform: translate(0,-0px);}
+	}
 
 	
 </style>
